@@ -22,7 +22,7 @@ let cuentas = {
     let resultado = document.getElementById("resultado");
     
     if (cuentas[cuenta].contraseña === password) {
-      resultado.innerHTML = "El saldo de la " + cuentas[cuenta].nombre + " es de $" + cuentas[cuenta].saldo;
+      resultado.innerHTML = "El saldo de  " + cuentas[cuenta].nombre + " es de $" + cuentas[cuenta].saldo;
     } else {
       resultado.innerHTML = "La contraseña es incorrecta";
     }
@@ -39,7 +39,7 @@ let cuentas = {
         resultado.innerHTML = "El límite de saldo es de $990. No se puede depositar esa cantidad.";
       } else {
         cuentas[cuenta].saldo += parseInt(monto);
-        resultado.innerHTML = "El nuevo saldo de la " + cuentas[cuenta].nombre + " es de $" + cuentas[cuenta].saldo;
+        resultado.innerHTML = "El nuevo saldo de  " + cuentas[cuenta].nombre + " es de $" + cuentas[cuenta].saldo;
       }
     } else {
       resultado.innerHTML = "La contraseña es incorrecta";
@@ -57,7 +57,7 @@ let cuentas = {
         resultado.innerHTML = "No se puede dejar el saldo en menos de $10. No se puede retirar esa cantidad.";
       } else {
         cuentas[cuenta].saldo -= parseInt(monto);
-        resultado.innerHTML = "El nuevo saldo de la " + cuentas[cuenta].nombre + " es de $" + cuentas[cuenta].saldo;
+        resultado.innerHTML = "El nuevo saldo de  " + cuentas[cuenta].nombre + " es de $" + cuentas[cuenta].saldo;
       }
     } else {
       resultado.innerHTML = "La contraseña es incorrecta";
