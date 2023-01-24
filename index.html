@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100;900&display=swap');
+        </style>)
+    <title>Cajero automático</title>
+</head>
+<body>
+    <div id="cajero">
+        <h1>ATM</h1>
+        <form>
+          <label for="cuenta">Seleccione su cuenta:</label>
+          <select id="cuenta">
+            <option value="cuenta1">Jake</option>
+            <option value="cuenta2">Ender</option>
+            <option value="cuenta3">Aydin</option>
+          </select>
+          <br>
+          <label for="password">Ingrese su contraseña:</label>
+          <input type="password" id="password">
+          <br>
+          <button type="button" onclick="consultarSaldo()">Saldo</button>
+          <button type="button" onclick="depositar()">Depositar</button>
+          <button type="button" onclick="retirar()">Retirar</button>
+        </form>
+        <div id="resultado"></div>
+      </div>
+      ;<script src="index.js"></script>
+</body>
+</html>

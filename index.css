@@ -1,0 +1,67 @@
+body {
+    background-color: #000000;
+    font-family:'Roboto',sans-serif;
+  }
+  
+  #cajero {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgb(1, 255, 65);
+  }
+  
+  #cajero h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  #cajero label {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #6669ff;
+    font-weight: 900;
+  }
+  
+  #cajero select, #cajero input {
+    font-size: 1.2em;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #66ff66;
+    font-weight: 500;
+     }
+     
+  #cajero button {
+    display: inline-block;
+    width: 30%;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #6666ff;
+    color: whitesmoke;
+    border: none;
+  }
+  
+  #cajero button:hover {
+    cursor: pointer;
+    background-color:  #66ff66;
+  
+  }
+  
+  #resultado {
+    font-size: 1.2em;
+    margin-top: 40px;
+    text-align: center;
+    color: #6666ff;
+    text-shadow:#66ff66;
+   font-family:"Press Start 2P";
+  }
+  
