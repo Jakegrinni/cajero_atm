@@ -1,16 +1,16 @@
 let cuentas = {
     cuenta1: {
-      nombre: "cuenta 1",
+      nombre: "Jake",
       contraseña: "1234",
       saldo: 200
     },
     cuenta2: {
-      nombre: "cuenta 2",
+      nombre: "Ender",
       contraseña: "5678",
       saldo: 290
     },
     cuenta3: {
-      nombre: "cuenta 3",
+      nombre: "Aydin",
       contraseña: "abcd",
       saldo: 67
     }
